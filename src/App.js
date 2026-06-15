@@ -18,8 +18,8 @@ function App() {
   const [categoria, setCategoria]     = useState('');
   const [stock, setStock]             = useState('');
   const [imagenPreview, setImagenPreview] = useState(null);  // URL base64 de la imagen
-  const [imagenArchivo, setImagenArchivo] = useState(null);  // Objeto File original
-
+// eslint-disable-next-line no-unused-vars
+const [imagenArchivo, setImagenArchivo] = useState(null);
   // ─── ESTADO: errores de validación ───
   const [errores, setErrores] = useState({});
 
